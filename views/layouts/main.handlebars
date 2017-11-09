@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Custom Styling -->
+	<style type="text/css">
+		.card-image { 
+			background: url(https://cdna.artstation.com/p/assets/images/images/000/977/704/large/colby-beckett-15-02-13-challenge-colby.jpg?1437415930) 25% 50% no-repeat; /* 50% 50% centers image in div */
+			width: 100%;
+			height: 150px;
+		}
+		.card .card-title {
+			font-weight: 600 !important;
+			font-size: 3rem !important;
+			text-transform: uppercase;
+			text-shadow: 4px 2px #ff0000;
+		}
+	</style>
+
+	<!-- Materialize CSS CDN Link -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  	<!--  Materialize JavaScript CDN Link -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+          
+	<title>Eat Da Burger</title>
+</head>
+<body>
+        <div class="card hoverable ">
+          <div class="card-image">
+            <h1 class="card-title yellow-text">Indeed HotSpot</h1>
+          </div>
+          <div class="card-content">
+          	<!-- Routes display info here -->
+            <p> {{{ body }}}</p>
+          </div>
+        </div>
+</body>
+</html>
